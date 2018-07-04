@@ -1,6 +1,8 @@
 # vue-bootstrap-blog
 
-> A Vue.js project
+> A bootstrap-vue simple blog project.
+
+![home](https://user-images.githubusercontent.com/13963254/42290888-d61e81b8-7fd0-11e8-9c67-50b68171b3ef.PNG "Bootstrap + Vue")
 
 ## Build Setup
 
