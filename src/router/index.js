@@ -5,6 +5,7 @@ import HomePage from '@/pages/HomePage';
 import AboutPage from '@/pages/AboutPage';
 import ServicesPage from '@/pages/ServicesPage';
 import ContactPage from '@/pages/ContactPage';
+import BlogPage from '@/pages/BlogPage';
 
 Vue.use(Router)
 
@@ -15,6 +16,11 @@ export default new Router({
       path: '/',
       name: 'HomePage',
       component: HomePage
+    },
+    {
+      path: '/blog',
+      name: 'BlogPage',
+      component: BlogPage
     },
     {
       path: '/about',
