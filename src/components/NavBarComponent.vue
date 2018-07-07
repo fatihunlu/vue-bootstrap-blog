@@ -19,7 +19,7 @@
           <router-link class="nav-link disabled" :to="{ name: 'ContactPage' }" v-on:click.native="changeTabIndex(4)"> Contact </router-link>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
+      <form class="form-inline my-2 my-lg-0" v-if="showSearchbar">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0 disabled" type="submit" @click.prevent=";">Search</button>
       </form>
@@ -31,6 +31,13 @@
 
 
 export default {
+    props: {
+      showSearchbar: {
+        requried: false,
+        default: true,
+        type: Boolean
+      }
+    },
     data() {
         return {
           selectedTabIndex : 1
