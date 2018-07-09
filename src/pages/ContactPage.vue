@@ -4,8 +4,7 @@
         <b-form @submit="onSubmit" @reset="onReset" v-if="show" class="col-sm-8">
             <b-form-group id="emailGroup"
                             label="Email address:"
-                            label-for="emailInput"
-                            description="We'll never share your email with anyone else.">
+                            label-for="emailInput">
                 <b-form-input id="emailInput"
                             type="email"
                             v-model="form.email"
