@@ -17,21 +17,22 @@
 
 <script>
 
-import NavBarComponent from './components/NavBarComponent.vue';
-import FooterComponent from './components/FooterComponent.vue';
-import SearchComponent from './components/core/SearchComponent.vue';
-import SideWidgetComponent from './components/core/SideWidgetComponent.vue';
-import CategoriesComponent from './components/core/CategoriesComponent.vue';
+// You can regist your component like that: (but we registered it on main.js with setupComponent methods)
+// import NavBarComponent from './components/NavBarComponent.vue';
+// import FooterComponent from './components/FooterComponent.vue';
+// import SearchComponent from './components/core/SearchComponent.vue';
+// import SideWidgetComponent from './components/core/SideWidgetComponent.vue';
+// import CategoriesComponent from './components/core/CategoriesComponent.vue';
 
 export default {
   name: 'App',
-  components: {
-    NavBarComponent,
-    FooterComponent,
-    SearchComponent,
-    SideWidgetComponent,
-    CategoriesComponent
-  },
+  // components: {
+  //   NavBarComponent,
+  //   FooterComponent,
+  //   SearchComponent,
+  //   SideWidgetComponent,
+  //   CategoriesComponent
+  // },
   data() {
     return {
 

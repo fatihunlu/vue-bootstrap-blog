@@ -7,9 +7,11 @@ import BootstrapVue from 'bootstrap-vue';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 
-// import './styles/blog-home.css';
+import { setupComponents } from './config/setup-components';
 
 Vue.use(BootstrapVue);
+
+setupComponents(Vue);
 
 Vue.config.productionTip = false
 
