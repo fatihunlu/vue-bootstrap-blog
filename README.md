@@ -4,6 +4,11 @@
 
 ![home](https://user-images.githubusercontent.com/13963254/42290888-d61e81b8-7fd0-11e8-9c67-50b68171b3ef.PNG "Bootstrap + Vue")
 
+### Reference
+
+* [Vue.js](https://vuejs.org/)
+* [Bootstrap Vue](https://bootstrap-vue.js.org/)
+
 ## Build Setup
 
 ``` bash
